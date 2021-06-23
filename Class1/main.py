@@ -14,3 +14,15 @@ id(x)
 print(id(x))
 print(id(y))
 print(id(z))
+
+# Know type of the variable
+print(x)
+print(type(x))
+
+a = "Hola Mundo"
+print(a)
+print(type(a))
+
+b: str = "New var"
+print(b)
+print(type(b))
