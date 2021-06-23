@@ -1,6 +1,9 @@
-# Working with strings
+# Bool Types
 
-band = "The Beatles"
-print(band)
+var = True
+var1 = False
+var2 = 3 > 2
 
-print("My favorite band is: " + band)
+print(var)
+print(var1)
+print(var2)
