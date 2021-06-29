@@ -1,6 +1,13 @@
-# Operadodes de asignacion
-miVAriable = 10
-print(miVAriable)
+a = 4
+b = 2
+result = (a != b)
 
-miVAriable = miVAriable + 1
-print(miVAriable)
+print(f"Resultado de comparar != es : {result}")
+
+result = (a == b)
+
+print(f"Resultado de comparar == es : {result}")
+
+result = (a > b)
+
+print(f"Resultado de comparar > es : {result}")
