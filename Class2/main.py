@@ -1,13 +1,7 @@
-a = 4
-b = 2
-result = (a != b)
+#is odd
+a = int(input('Type a number: '))
 
-print(f"Resultado de comparar != es : {result}")
-
-result = (a == b)
-
-print(f"Resultado de comparar == es : {result}")
-
-result = (a > b)
-
-print(f"Resultado de comparar > es : {result}")
+if a % 2 == 0:
+    print(f'The number you typed {a} is pair')
+else:
+    print(f'The number you typed {a} is odd')
