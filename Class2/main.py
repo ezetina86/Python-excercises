@@ -1,7 +1,9 @@
-#is odd
-a = int(input('Type a number: '))
+# Is it an adult?
 
-if a % 2 == 0:
-    print(f'The number you typed {a} is pair')
+targetAge = 18
+age = int(input('Type youor age: '))
+
+if age >= age:
+    print(f'You are {age} years old, you are and adult' )
 else:
-    print(f'The number you typed {a} is odd')
+    print(f'You are {age} years old, you are not an adult')
