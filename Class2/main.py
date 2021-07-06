@@ -1,9 +1,19 @@
-# Is it an adult?
+# Logic Operators
+a = True
+b = False
 
-targetAge = 18
-age = int(input('Type youor age: '))
+result = a and b
+print(result)
+result = a or b
+print(result)
 
-if age >= age:
-    print(f'You are {age} years old, you are and adult' )
+
+####
+value = int(input('type the valuie: '))
+min = 0
+max = 5
+range = (value >= min) and (value <= max)
+if range:
+    print(f'your value {value} is in range')
 else:
-    print(f'You are {age} years old, you are not an adult')
+    print(f'your value {value} is not in range')
