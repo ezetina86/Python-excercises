@@ -1,19 +1,13 @@
-# Logic Operators
-a = True
-b = False
+#Go to game?
 
-result = a and b
-print(result)
-result = a or b
-print(result)
+print('This program will determine if it is possible to go to the game')
+print('Type yes or not...')
+vacations = input('Are you on vacations:')
+rest_day = input('Are you on your rest_day:')
+print(vacations)
+print(rest_day)
 
-
-####
-value = int(input('type the valuie: '))
-min = 0
-max = 5
-range = (value >= min) and (value <= max)
-if range:
-    print(f'your value {value} is in range')
+if (vacations.lower() == 'yes') or (rest_day.lower() == 'yes'):
+    print('Congrats! you can go to the game')
 else:
-    print(f'your value {value} is not in range')
+    print('Sorry! you cannot go to the game')
