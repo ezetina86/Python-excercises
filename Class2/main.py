@@ -1,13 +1,15 @@
-#Go to game?
+#age range
 
-print('This program will determine if it is possible to go to the game')
-print('Type yes or not...')
-vacations = input('Are you on vacations:')
-rest_day = input('Are you on your rest_day:')
-print(vacations)
-print(rest_day)
+age = int(input('Introduce tu edad:'))
 
-if (vacations.lower() == 'yes') or (rest_day.lower() == 'yes'):
-    print('Congrats! you can go to the game')
+twenties = age >= 20 and age <30
+thirties = age >= 30 and age <40
+
+if twenties or thirties:
+   # print("In range!")
+    if twenties:
+        print("You're in twenties")
+    elif thirties:
+        print("You're in thirties")
 else:
-    print('Sorry! you cannot go to the game')
+    print('Not in range!')
