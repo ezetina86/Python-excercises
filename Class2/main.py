@@ -1,15 +1,11 @@
-#age range
+#major of 2 numbers
 
-age = int(input('Introduce tu edad:'))
+num1 = input("Type the first number: ")
+num2 = input("Type the second number: ")
 
-twenties = age >= 20 and age <30
-thirties = age >= 30 and age <40
-
-if twenties or thirties:
-   # print("In range!")
-    if twenties:
-        print("You're in twenties")
-    elif thirties:
-        print("You're in thirties")
+if num1 > num2:
+    print(num1 + " Is higher than " + num2)
+elif num2 > num1:
+    print(num2 + " Is higher than " + num1)
 else:
-    print('Not in range!')
+    print(num1 + " Is equal to " + num2)
