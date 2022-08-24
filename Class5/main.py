@@ -9,3 +9,8 @@ names = ["John", "Henry", "Richard"]
 
 print(names)
 
+# Printing a value fo my list
+print(names[0])
+
+# Printing a value of my list in reverse
+print(names[-1])
