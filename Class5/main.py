@@ -4,7 +4,7 @@ Working with lists in Python
 # Defining a list of names
 
 from cmath import pi
-
+from operator import le
 
 names = ["John", "Henry", "Richard", "Lili"]
 
@@ -36,3 +36,38 @@ for name in names:
     print(name)
 else:
     print("No more names!")
+    
+# How length is my list?
+print(len(names))
+
+# Adding elements to my list
+
+names.append("Henry")
+print(names)
+
+# Adding elements to my list into an specific index
+names.insert(1,"Mike")
+print(names[1])
+print(names)
+
+# Delete an element
+names.remove("Lili")
+print(names)
+
+# Delete the last element
+names.pop()
+print(names)
+
+# Delete an specific index
+del names[0]
+print(names)
+
+# Clean the list
+names.clear()
+print(names)
+
+# Delete the list
+del names
+# This will return an error since the list doesn't exists anymore
+print(names)
+
