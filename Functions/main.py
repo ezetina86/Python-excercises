@@ -14,3 +14,17 @@ def new_function(name, last_name):
 
 new_function('Henry', 'Zetina')
 new_function('Henry', 'Moya')
+
+
+def sum(a, b):
+    a = int(a)
+    b = int(b)
+    return (a + b)
+
+
+print('Give me 2 numbers')
+a = input()
+b = input()
+# print(type(a))
+result = sum(a, b)
+print(f'Result of the sum: {result}')
