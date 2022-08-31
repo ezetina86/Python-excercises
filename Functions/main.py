@@ -21,6 +21,14 @@ def sum(a, b):
     b = int(b)
     return (a + b)
 
+# Writing a function with the complete syntax
+
+
+def sum2(a: int = 0, b: int = 0) -> int:
+    a = int(a)
+    b = int(b)
+    return (a + b)
+
 
 print('Give me 2 numbers')
 a = input()
@@ -28,3 +36,15 @@ b = input()
 # print(type(a))
 result = sum(a, b)
 print(f'Result of the sum: {result}')
+
+# Receiving a variable number of arguments
+
+
+def listNames(*names):
+    # The names will be stored in a tuple which is an immutable object
+    for name in names:
+        print(name)
+
+
+listNames('Henry')
+listNames('Henry', "Liliet")
