@@ -1,4 +1,7 @@
 class Person:
+    # Method to initialize an attribute in python
+    # Self reserved word
+    # Double underscore special init method for class
     def __init__(self, name, last_name, age):
         # Self is an attribute of the class
         # The right side are parameters
@@ -18,7 +21,7 @@ print(person1.age)
 person1.show_details()
 
 # Modifying values of my object
-person1.name = 'Jose'
+person1.name = 'Enrique'
 person1.age = 37
 person1.last_name = 'Moya'
 print(f'Person 1: {person1.name} {person1.last_name} {person1.age}')
